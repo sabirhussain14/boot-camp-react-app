@@ -35,5 +35,5 @@ jobs:
     - name: Installing surge
       run: npm install -g surge
     - name: Deploying on surge
-      run: surge ./ build  boot1.surge.sh --token ${{secrets.REACT_SECRET}}
+      run: surge ./ build  boot1.surge.sh --token ${{secrets.BOOT_SECRET1}}
    
