@@ -1,11 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      Assalam O Alikum
+      <h1>Assalam O Alikum to all from us </h1>
     </div>
   );
 }
